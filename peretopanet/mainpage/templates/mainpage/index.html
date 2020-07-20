@@ -1,0 +1,37 @@
+{% extends "mainpage/wrapper.html" %}
+
+{% block main %}
+        <div class="header">
+            <h1><p>Vladimir Makers</p>
+            </h1>
+            <h2>Производство СИЗ и приборов для врачей.</h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Немного о нашей деятельности</h2>
+            <p><p>Наше сообщество занимается 3д печатью, моделированием, а также инженерными разработками. Мы бесплатно поставляем произведенную продукцию в больницы Владимирской области, тем самым улучшая ситуацию с нехваткой средств индивидуальной защиты. Поставлено уже более трех тысяч визоров, более ста интубационных боксов, а также различные переходники и держатели. Кроме того, в разработке находятся маски-респираторы и другие предметы, способные помочь нашим медикам. На этой страничке вы можете найти актуальные модели для печати.</p>
+
+            <h2 class="content-subhead">Ссылки с актуальными моделями</h2>
+            <p>
+                <a href="https://docs.google.com/spreadsheets/d/1-O0JVEWymonWgTvI9trdw2Ew1nZpRGHWoNJyS1XtajU/edit#gid=0" class="pure-menu-link"> Ссылка на таблицу </a>
+            </p>
+
+
+        </div>
+{% endblock %}
+{% block side %}
+<div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="/">Vladmakers</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="/feedback" style="color: white" class="pure-menu-link">Актуальное</a></li>
+                <li class="pure-menu-item">
+                    <a href="/news" style="color: white" class="pure-menu-link">Новости</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="/contact" style="color: white" class="pure-menu-link">Ссылки</a></li>
+            </ul>
+        </div>
+</div>
+{% endblock %}
